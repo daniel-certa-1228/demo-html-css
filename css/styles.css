@@ -1,0 +1,58 @@
+/*============================
+	STLYES
+============================*/
+
+body {
+	background-color: darkcyan;
+}
+
+nav {
+	background-color: orange;
+	height: 30px;
+}
+
+nav li {
+	float: left;
+	list-style-type: none;
+	margin: 5px 15px 0 15px;
+	font-family: "Arial", "Helvetica";
+}
+
+nav li a:hover {
+	color: white;
+}
+
+h1, h2, h3 {
+	color: crimson;
+}
+
+h1 {
+	text-transform: uppercase;
+}
+
+.wrapper {
+	background-color: #fff;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.hero {
+	width: 100%;
+}
+
+main {
+	max-width: 70%;
+	float: left;
+}
+
+aside {
+	max-width: 30%;
+	float: right;
+}
+
+footer {
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	clear: both;
+}
