@@ -1,6 +1,9 @@
 /*============================
 	STLYES
 ============================*/
+* {
+	box-sizing: border-box;
+}
 
 body {
 	background-color: darkcyan;
@@ -41,8 +44,9 @@ h1 {
 }
 
 main {
-	max-width: 70%;
-	float: left;
+	/*max-width: 65%;*/
+	/*float: left;*/
+	/*margin: 1em;*/
 }
 
 aside {
@@ -56,3 +60,19 @@ footer {
 	text-align: center;
 	clear: both;
 }
+
+.flex-container {
+	display: flex;
+	display: -webkit-flex;
+	width: 100%;
+	background-color: seagreen;
+	justify-content: center;
+	-webkit-justify-content: center;
+}
+
+.flex-item {
+	background-color: hotpink;
+	width: 30%;
+	margin: 10px;
+}
+
